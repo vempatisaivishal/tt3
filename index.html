@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Time Table</title>
+   <style>
+      body {
+         background-color:yellow;
+      }
+      h1 {
+         text-align: center;
+         color: darkcyan;
+      }
+      table {
+         border: 2px solid black;
+         border-spacing: 3px;
+         margin: 2% auto;
+      }
+      td {
+         text-align: center;
+         border: 1px solid black;
+      }
+      #blank {
+         background-color: #fff;
+         color: #000;
+      }
+      #s {
+         font-weight: 800;
+         text-transform: uppercase;
+         background-color: #fff;
+         font-family: sans-serif;
+      }
+      #seminar {
+         font-weight: 800;
+         text-transform: uppercase;
+         background-color: #fff;
+         font-family: sans-serif;
+      }
+      #sub {
+         background-color: #fff;
+         color: black;
+         font-family: sans-serif;
+      }
+      #sub1 {
+         background-color: #fff;
+      }
+      #sub2 {
+         background-color: #fff;
+         text-transform: uppercase;
+         color: black;
+      }
+      #sub3 {
+         background-color: #fff;
+         font-family: sans-serif;
+         font-weight: 800;
+      }
+      #box1 {
+         color: cornflowerblue;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+      #box2 {
+         color: darkorange;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+      #box3 {
+         color: darkviolet;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+      #box4 {
+         color: green;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+      #box5 {
+         color: red;
+         font-family: sans-serif;
+         font-weight: 800;
+      }
+      #box6 {
+         color: hotpink;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+      #box7 {
+         color: blue;
+         font-weight: 800;
+         font-family: sans-serif;
+      }
+   </style>
+</head>
+<body>
+   <h1>COLLEGE TIME TABLE</h1>
+   <table border="2" cellspacing="3" align="center">
+      <tr>
+         <td></td>
+         <td>8:30-9:30</td>
+         <td>9:30-10:30</td>
+         <td>10:30-11:30</td>
+         <td>11:30-12:30</td>
+         <td>12:30-2:00</td>
+         <td>2:00-3:00</td>
+         <td>3:00-4:00</td>
+         <td>4:00-5:00</td>
+      </tr>
+      <tr>
+         <td align="center">MONDAY</td>
+         <td align="center" id="blank">DAA</td>
+         <td align="center" id="sub1">DLVS</td>
+         <td align="center" id="sub2">DLVS</td>
+         <td align="center" id="sub3">WT</td>
+         <td rowspan="6" align="center" id="s">L<br>U<br>N<br>C<br>H</td>
+         <td align="center" id="box4">PP</td>
+         <td align="center" id="box5">DLVS/LAB</td>
+         <td align="center">Mentoring</td>
+      </tr>
+      <tr>
+         <td align="center">TUESDAY</td>
+         <td align="center" id="sub1">DLVS</td>
+         <td align="center" id="sub3">SE</td>
+         <td align="center" id="sub2">DAA</td>
+         <td align="center" id="blank">DAA</td>
+         <td align="center" id="box6">WT</td>
+         <td align="center" id="box4">PP</td>
+         <td align="center">Library</td>
+      </tr>
+      <tr>
+         <td align="center">WEDNESDAY</td>
+         <td align="center" id="sub2">PP</td>
+         <td align="center" id="box6">SE</td>
+         <td align="center" id="box2">DAA</td>
+         <td align="center" id="blank">DAA</td>
+         <td colspan="3" align="center" id="box3">WT Lab</td>
+      </tr>
+      <tr>
+         <td align="center">THURSDAY</td>
+         <td align="center" id="sub1">DLVS</td>
+         <td align="center" id="box2">DLVS</td>
+         <td align="center" id="box6">WT</td>
+         <td align="center" id="blank">WT</td>
+         <td align="center" id="sub1">SE</td>
+         <td align="center" id="sub3">Seminar</td>
+         <td align="center">Library</td>
+      </tr>
+      <tr>
+         <td align="center">FRIDAY</td>
+         <td align="center" id="box6">PP</td>
+         <td align="center" id="box4">PP</td>
+         <td align="center" id="sub1">DLVS</td>
+         <td align="center" id="blank">SE</td>
+         <td align="center" id="sub2">DAA</td>
+         <td align="center" id="box2">WT</td>
+         <td align="center">Library</td>
+      </tr>
+      <tr>
+         <td align="center">SATURDAY</td>
+         <td align="center" id="sub3">DAA</td>
+         <td colspan="3" align="center" id="seminar">Seminar</td>
+         <td align="center" id="sub4">PP</td>
+         <td align="center" id="box2">WT</td>
+         <td align="center">Library</td>
+      </tr>
+   </table>
+</body>
+</html>
